@@ -477,19 +477,24 @@ transform: scale(1.1);
 /*----------------- Social -----------------*/
 #social {
   height: 30vh;
+  display: flex;
+  flex-direction: column;
   background-color: #f8f9fa;
-  padding-bottom: 8vh;
+  /* padding-bottom: 5vh; */
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 #social p{
-  margin-top: 18px;
+  margin-top: 13px;
 }
 
 .socials-container-f {
   display: flex;
   justify-content: center;
   text-align: center;
-  margin-top: 15px;
+  margin-top: 10px;
   gap: 0.5rem;
 }
 
@@ -517,7 +522,7 @@ transform: scale(1.1);
 footer{
   width: 100%;
   background-color: black;
-  position: fixed;
+  /* position: fixed; */
   bottom: 0;
   left: 0;
 }
