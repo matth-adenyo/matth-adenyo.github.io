@@ -937,7 +937,7 @@ a {
 }
 
 .navbar-custom .navigation .nav-item .nav-link {
-  color: #343a40;
+  color: #403434;
   font-size: 13px;
   background-color: transparent !important;
   margin: 0 8px;
@@ -1001,7 +1001,7 @@ a {
 }
 
 .navbar-custom .navbar-toggler {
-  color: #ffffff;
+  color: #343a40;
   font-size: 30px;
   padding: 0px;
   border: none;
@@ -1023,8 +1023,8 @@ a {
 /*----------- Logo Area ----------*/
 .nav-sticky.navbar-custom {
   margin-top: 0px;
-  padding: 0px 0px;
-  background-color: rgb(53, 53, 53, 0.9);
+  padding: 20px 0px;
+  background-color: #ffffff;
   -webkit-box-shadow: 0 10px 33px rgba(0, 0, 0, 0.1);
   box-shadow: 0 10px 33px rgba(0, 0, 0, 0.1);
 }
@@ -1034,7 +1034,7 @@ a {
 }
 
 .nav-sticky.navbar-custom .navigation .nav-item .nav-link {
-  color: #ffffff;
+  color: #343a40;
 }
 
 .nav-sticky.navbar-custom .navigation .nav-item .nav-link:hover,
@@ -1062,13 +1062,13 @@ button:not(:disabled) {
 
 @media (max-width: 991px) {
   .navbar-custom {
-    background-color: rgb(53, 53, 53, 0.9) !important;
+    background-color: #ffffff !important;
   }
   .navbar-custom .logo {
     color: #343a40 !important;
   }
   .navbar-custom .navbar-nav .nav-item .nav-link {
-    color: #ffffff !important;
+    color: #343a40 !important;
   }
 }
 
