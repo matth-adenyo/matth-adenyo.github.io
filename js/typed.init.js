@@ -6,5 +6,6 @@ var typed = new Typed("#typed", {
   strings: [
     "Data Analyst",
     "Mathematics Tutor",
+    "YouTube Content Creator"
   ],
 });
